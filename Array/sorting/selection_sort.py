@@ -4,6 +4,11 @@ Selection sort:
 - i.e find smallest element and move to 0th index at 1st iteration
 again repeat same and put element to 2nd index (swapping)
 if element already placed to it's desired position then no need to swap
+pass : 1 - [3, 12, 9, 11, 7]
+pass : 2 - [3, 7, 12, 11, 9]
+pass : 3 - [3, 7, 9, 12, 11]
+pass : 4 - [3, 7, 9, 11, 12]
+pass : 5 - [3, 7, 9, 11, 12]
 '''
 
 array = [ 7, 12, 9, 11, 3]
